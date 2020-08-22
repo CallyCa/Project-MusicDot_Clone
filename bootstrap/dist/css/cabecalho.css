@@ -4,7 +4,10 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .23em;
-    background-color: #2D5377;
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+    width: 100%;
     color: #fff;
 }
 
@@ -28,13 +31,13 @@
 .cabecalho_item-menu a{
     display: inline-block ;
     padding: 1.86em 1.42em;
-    text-decoration: none;
-    color: white;
+
 }
 
 @media(min-width: 640px){
     .cabecalho{
-        padding: 0 5%;
+        padding-top: 0;
+        padding-bottom: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
